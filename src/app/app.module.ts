@@ -6,13 +6,15 @@ import {HttpClientModule} from '@angular/common/http';
 import {UserComponent} from './components/user/user.component';
 import {UsersComponent} from './components/users/users.component';
 import { PhoneNumberPipe } from './phone-number.pipe';
+import { HrDirective } from './hr.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     UsersComponent,
-    PhoneNumberPipe
+    PhoneNumberPipe,
+    HrDirective
   ],
   imports: [
     BrowserModule,
